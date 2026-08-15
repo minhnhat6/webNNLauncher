@@ -16,10 +16,10 @@ Content column → h1 with gradient span → paragraph → CTA row → metrics r
 - desktop height:384px; mobile width:348px; mobile height:279px
 
 ### Heading
-- desktop: 600 72px/90px Poppins; letter-spacing:0; margin-bottom:24px; height:180px
-- tablet: 600 48px/60px; margin-bottom:24px; height:120px
-- mobile: 600 30px/37.5px; margin-bottom:8px; height:75px
-- highlight: gradient from red-500 to orange-600, background-clip:text, transparent fill
+- desktop: 400 72px/90px Poppins; letter-spacing:0; margin-bottom:24px; height:180px
+- tablet: 400 48px/60px; margin-bottom:24px; height:120px
+- mobile: 400 30px/37.5px; margin-bottom:8px; height:75px
+- highlight: 600 weight, gradient from red-500 to orange-600, background-clip:text, transparent fill
 
 ### Paragraph
 - 400 16px/16px Poppins; desktop width:576px; height:48px; margin-bottom:32px
@@ -60,4 +60,3 @@ Content column → h1 with gradient span → paragraph → CTA row → metrics r
 - **Tablet (768px):** 512px column; 48px title; paragraph 60%.
 - **Mobile (390px):** full 348px column; 30px title; paragraph 90%; smaller margins.
 - **Breakpoints:** 640px typography/margins, 768px width, 1024px 60px title/80% paragraph, 1280px 72px title/100% paragraph.
-
