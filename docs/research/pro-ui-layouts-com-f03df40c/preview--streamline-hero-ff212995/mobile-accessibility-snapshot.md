@@ -1,0 +1,61 @@
+- generic [active] [ref=e1] [box=0,0,380,844]:
+  - generic [ref=e174] [box=0,0,380,800]:
+    - link [ref=e341] [cursor=pointer] [box=16,0,348,44]:
+      - /url: https://pro.ui-layouts.com
+      - link "🚀 Ship faster with UI-Layouts Pro" [ref=e342] [box=16,0,348,44]:
+        - /url: https://pro.ui-layouts.com
+        - paragraph [ref=e180] [box=71,10,214,24]:
+          - img "🚀" [ref=e182] [box=71,10,24,24]
+          - text: Ship faster with
+          - generic [ref=e183] [box=196,14,89,16]: UI-Layouts Pro
+    - generic [ref=e188] [box=16,44,348,64]:
+      - button [ref=e343] [box=32,56,48,40]
+      - navigation [ref=e211] [box=230,56,118,40]:
+        - link "X" [ref=e212] [cursor=pointer] [box=230,56,42,40]:
+          - /url: https://twitter.com/naymur_dev
+          - img "X" [ref=e213] [box=243,68,16,16]
+        - link "Login" [ref=e215] [cursor=pointer] [box=280,56,68,40]:
+          - /url: https://pro.ui-layouts.com/login
+    - generic [ref=e216] [box=16,108,348,589]:
+      - generic [ref=e218] [box=16,172,348,279]:
+        - heading "Build Amazing Products Faster" [level=2] [ref=e219] [box=16,172,348,75]
+        - paragraph [ref=e220] [box=16,255,313,80]: Streamline your development process with our powerful tools and intuitive interface. Get from idea to launch in record time with AI-powered assistance.
+        - generic [ref=e221] [box=16,351,348,48]:
+          - button "Get Started" [ref=e222] [box=16,351,134,48]
+          - button "Watch Demo" [ref=e223] [box=158,351,178,48]
+        - generic [ref=e226] [box=16,431,348,20]:
+          - generic [ref=e227] [box=16,431,169,20]: 4.9/5 rating
+          - generic [ref=e240] [box=217,431,100,20]: 50k+ users
+      - img [ref=e248] [box=-2,459,385,174]:
+        - generic [ref=e274] [box=154,523,89,45]: UI-Layouts
+    - generic [ref=e288] [box=32,717,316,63]:
+      - generic [ref=e289] [box=-45,725,944,47]:
+        - img "booking" [ref=e291] [box=-13,739,80,20]
+        - img "booking" [ref=e293] [box=147,734,80,29]
+        - img "booking" [ref=e295] [box=307,730,80,37]
+        - img "booking" [ref=e297] [box=467,737,80,22]
+        - img "booking" [ref=e299] [box=627,738,80,22]
+        - img "booking" [ref=e301] [box=787,725,80,47]
+      - generic [ref=e302] [box=915,725,944,47]:
+        - img "booking" [ref=e304] [box=947,739,80,20]
+        - img "booking" [ref=e306] [box=1107,734,80,29]
+        - img "booking" [ref=e308] [box=1267,730,80,37]
+        - img "booking" [ref=e310] [box=1427,737,80,22]
+        - img "booking" [ref=e312] [box=1587,738,80,22]
+        - img "booking" [ref=e314] [box=1747,725,80,47]
+      - generic [ref=e315] [box=1875,725,944,47]:
+        - img "booking" [ref=e317] [box=1907,739,80,20]
+        - img "booking" [ref=e319] [box=2067,734,80,29]
+        - img "booking" [ref=e321] [box=2227,730,80,37]
+        - img "booking" [ref=e323] [box=2387,737,80,22]
+        - img "booking" [ref=e325] [box=2547,738,80,22]
+        - img "booking" [ref=e327] [box=2707,725,80,47]
+      - generic [ref=e328] [box=2835,725,944,47]:
+        - img "booking" [ref=e330] [box=2867,739,80,20]
+        - img "booking" [ref=e332] [box=3027,734,80,29]
+        - img "booking" [ref=e334] [box=3187,730,80,37]
+        - img "booking" [ref=e336] [box=3347,737,80,22]
+        - img "booking" [ref=e338] [box=3507,738,80,22]
+        - img "booking" [ref=e340] [box=3667,725,80,47]
+  - region "Notifications alt+T" [box=0,844,380,0]
+  - alert [ref=e172] [box=-1,843,1,1]

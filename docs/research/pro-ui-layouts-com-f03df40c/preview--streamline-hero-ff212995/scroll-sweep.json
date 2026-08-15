@@ -1,0 +1,40 @@
+{
+  "start": {
+    "scrollY": 0,
+    "scrollHeight": 1000,
+    "clientHeight": 1000,
+    "position": "relative",
+    "top": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "boxShadow": "none",
+    "transform": "none",
+    "transition": "all"
+  },
+  "after100": {
+    "scrollY": 0,
+    "scrollHeight": 1000,
+    "clientHeight": 1000,
+    "position": "relative",
+    "top": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "boxShadow": "none",
+    "transform": "none",
+    "transition": "all"
+  },
+  "afterEnd": {
+    "scrollY": 0,
+    "scrollHeight": 1000,
+    "clientHeight": 1000,
+    "position": "relative",
+    "top": "0px",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "boxShadow": "none",
+    "transform": "none",
+    "transition": "all"
+  },
+  "htmlClasses": "light",
+  "bodyClasses": "__variable_980187\n    __variable_9dedda\n    __variable_71d483\n    __variable_5836ac\n         __variable_827fee font-poppins",
+  "scrollSnapType": "none",
+  "bodyScrollSnapType": "none",
+  "lenis": false
+}

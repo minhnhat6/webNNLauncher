@@ -1,0 +1,12 @@
+{
+  "color": "rgb(248, 250, 252)",
+  "background": "oklch(0.985 0 0) none repeat scroll 0% 0% / auto padding-box border-box",
+  "backgroundColor": "oklch(0.985 0 0)",
+  "border": "0px solid rgb(226, 232, 240)",
+  "boxShadow": "none",
+  "opacity": "1",
+  "transform": "none",
+  "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+  "cursor": "pointer",
+  "animationPlayState": "running"
+}

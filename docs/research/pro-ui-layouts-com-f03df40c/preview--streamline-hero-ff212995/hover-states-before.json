@@ -1,0 +1,86 @@
+{
+  ".fq8vtYpr": {
+    "color": "rgb(248, 250, 252)",
+    "background": "oklch(0.985 0 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "oklch(0.985 0 0)",
+    "border": "0px solid rgb(226, 232, 240)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "cursor": "pointer",
+    "animationPlayState": "running"
+  },
+  ".oLQldeER": {
+    "color": "rgb(2, 8, 23)",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(226, 232, 240)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+    "cursor": "pointer",
+    "animationPlayState": "running"
+  },
+  ".Mrgk02P7": {
+    "color": "rgb(2, 8, 23)",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "border": "1px solid oklch(0.922 0 0)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all",
+    "cursor": "pointer",
+    "animationPlayState": "running"
+  },
+  ".eMcuHl1g": {
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(51, 76, 236) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(51, 76, 236)",
+    "border": "1px solid oklch(0.922 0 0)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all",
+    "cursor": "pointer",
+    "animationPlayState": "running"
+  },
+  ".ARwAaiuP": {
+    "color": "rgb(255, 255, 255)",
+    "background": "oklch(0.546 0.245 262.881) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "oklch(0.546 0.245 262.881)",
+    "border": "0px solid rgb(226, 232, 240)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "cursor": "default",
+    "animationPlayState": "running"
+  },
+  ".i27likYZ": {
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(226, 232, 240)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all",
+    "cursor": "default",
+    "animationPlayState": "running"
+  },
+  ".ybRpasQW": {
+    "color": "rgb(2, 8, 23)",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "border": "0px solid rgb(226, 232, 240)",
+    "boxShadow": "none",
+    "opacity": "1",
+    "transform": "none",
+    "transition": "all",
+    "cursor": "auto",
+    "animationPlayState": "running"
+  }
+}

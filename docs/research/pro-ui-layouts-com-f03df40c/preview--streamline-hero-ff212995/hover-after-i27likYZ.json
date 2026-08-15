@@ -1,0 +1,12 @@
+{
+  "color": "rgb(0, 0, 0)",
+  "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+  "backgroundColor": "rgba(0, 0, 0, 0)",
+  "border": "0px solid rgb(226, 232, 240)",
+  "boxShadow": "none",
+  "opacity": "1",
+  "transform": "none",
+  "transition": "all",
+  "cursor": "default",
+  "animationPlayState": "running"
+}
