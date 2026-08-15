@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import styles from "./streamline-hero.module.css";
 
 const cpuArchitectureAsset =
@@ -6,13 +8,14 @@ const cpuArchitectureAsset =
 export function CpuArchitecture() {
   return (
     <div className={styles.cpu} aria-hidden="true">
-      <img
+      <Image
         className={styles.cpuImage}
         src={cpuArchitectureAsset}
         alt=""
         width={200}
         height={100}
         draggable={false}
+        unoptimized
       />
       <div className={styles.hatch} />
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 import {
   BrandLogoIcon,
@@ -34,12 +35,12 @@ function NavIcon({ icon }: Pick<StreamlineNavItem, "icon">) {
 
 function Brand() {
   return (
-    <a className={styles.brand} href="/" aria-label="UI Layouts Pro home">
+    <Link className={styles.brand} href="/" aria-label="UI Layouts Pro home">
       <span className={styles.brandMark}>
         <BrandLogoIcon className={styles.brandLogo} />
         <span className={styles.proBadge}>pro</span>
       </span>
-    </a>
+    </Link>
   );
 }
 
@@ -54,6 +55,7 @@ export function SiteHeader() {
     }
 
     const previousOverflow = document.body.style.overflow;
+    const menuButton = menuButtonRef.current;
     document.body.style.overflow = "hidden";
     closeButtonRef.current?.focus();
 
@@ -68,7 +70,7 @@ export function SiteHeader() {
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", handleKeyDown);
-      menuButtonRef.current?.focus();
+      menuButton?.focus();
     };
   }, [isOpen]);
 
@@ -77,10 +79,10 @@ export function SiteHeader() {
       <nav className={styles.desktopNav} aria-label="Primary navigation">
         <Brand />
         {navItems.map((item) => (
-          <a className={styles.navLink} href={item.href} key={item.href}>
+          <Link className={styles.navLink} href={item.href} key={item.href}>
             <NavIcon icon={item.icon} />
             <span>{item.label}</span>
-          </a>
+          </Link>
         ))}
       </nav>
 
@@ -141,7 +143,7 @@ export function SiteHeader() {
               </div>
               <nav className={styles.drawerNav} aria-label="Mobile navigation">
                 {navItems.map((item, index) => (
-                  <a
+                  <Link
                     className={`${styles.drawerLink} ${index === 0 ? styles.drawerActive : ""}`}
                     href={item.href}
                     key={item.href}
@@ -150,7 +152,7 @@ export function SiteHeader() {
                   >
                     <NavIcon icon={item.icon} />
                     <span>{item.label}</span>
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>

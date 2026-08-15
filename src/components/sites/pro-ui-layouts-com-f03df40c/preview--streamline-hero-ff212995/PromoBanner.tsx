@@ -29,13 +29,13 @@ export function PromoBanner() {
             src={rocketSrc}
             width={24}
           />
-          <span>Ship faster with</span>
+          Ship faster with{" "}
           <span className={styles.promoPro}>UI-Layouts Pro</span>
           <span className={styles.promoTail}>
             – 50+ Tailwind &amp; React components for production-ready UIs
           </span>
-          <ArrowUpRightIcon className={styles.promoArrow} />
         </p>
+        <ArrowUpRightIcon className={styles.promoArrow} />
       </div>
     </a>
   );
