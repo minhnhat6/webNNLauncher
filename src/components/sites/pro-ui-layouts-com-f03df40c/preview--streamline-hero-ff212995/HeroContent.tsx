@@ -1,5 +1,6 @@
+import { UserPlusIcon } from "lucide-react";
+
 import {
-  PlayIcon,
   StarIcon,
   UsersIcon,
 } from "@/components/sites/pro-ui-layouts-com-f03df40c/shared/icons";
@@ -12,36 +13,36 @@ export function HeroContent() {
   return (
     <div className={styles.heroContent}>
       <h2 className={`${styles.heading} ${styles.entranceOne}`}>
-        Build <span className={styles.highlight}>Amazing</span>
-        <br />
-        Products Faster
+        <span className={styles.headingLine}>
+          Tạo <span className={styles.highlight}>tuyệt phẩm</span>
+        </span>
+        <span className={`${styles.headingLine} ${styles.headingLineSecond}`}>
+          <span>nhanh hơn</span>
+          <span className={styles.aiTag} aria-hidden="true">
+            <span>✦</span> với AI
+          </span>
+        </span>
       </h2>
 
       <p className={`${styles.description} ${styles.entranceTwo}`}>
-        Streamline your development process with our powerful tools and
-        intuitive interface. Get from idea to launch in record time with
-        AI-powered assistance.
+        Tối ưu quy trình sáng tạo với công cụ AI mạnh mẽ và giao diện trực
+        quan. Biến video dài thành Shorts cuốn hút, sẵn sàng đăng chỉ trong vài
+        phút.
       </p>
 
       <div className={`${styles.ctaRow} ${styles.entranceThree}`}>
         <button
-          className={`${styles.cta} ${styles.primaryCta}`}
-          type="button"
-        >
-          Get Started
-        </button>
-        <button
           className={`${styles.cta} ${styles.secondaryCta}`}
           type="button"
         >
-          <PlayIcon className={styles.playIcon} />
-          Watch Demo
+          <UserPlusIcon className={styles.playIcon} />
+          <span>Đăng ký ngay</span>
         </button>
       </div>
 
       <div className={`${styles.metrics} ${styles.entranceFour}`}>
         <div className={styles.metric}>
-          <span className={styles.stars} aria-label="4.9 out of 5 stars">
+          <span className={styles.stars} aria-label="Đánh giá 4,9 trên 5 sao">
             {ratingStars.map((star) => (
               <StarIcon
                 className={styles.starIcon}
@@ -50,12 +51,12 @@ export function HeroContent() {
               />
             ))}
           </span>
-          <span>4.9/5 rating</span>
+          <span>4,9/5 điểm</span>
         </div>
 
         <div className={styles.metric}>
           <UsersIcon className={styles.usersIcon} />
-          <span>50k+ users</span>
+          <span>50K+ người dùng</span>
         </div>
       </div>
     </div>

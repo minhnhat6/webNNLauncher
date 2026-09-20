@@ -1,20 +1,47 @@
-import Image from "next/image";
+import {
+  AudioLines,
+  Captions,
+  Eraser,
+  ScanSearch,
+  Scissors,
+  type LucideIcon,
+} from "lucide-react";
 import type { CSSProperties } from "react";
-
-import type { StreamlineLogoItem } from "./types";
 
 import styles from "./streamline-hero.module.css";
 
-const assetRoot =
-  "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/images";
+interface FeatureItem {
+  label: string;
+  Icon: LucideIcon;
+  toneClass: string;
+}
 
-const logos: StreamlineLogoItem[] = [
-  { src: `${assetRoot}/doordash.png`, alt: "booking" },
-  { src: `${assetRoot}/eventbrite.png`, alt: "booking" },
-  { src: `${assetRoot}/smeg.png`, alt: "booking" },
-  { src: `${assetRoot}/surveymonkey.png`, alt: "booking" },
-  { src: `${assetRoot}/netflix.png`, alt: "booking" },
-  { src: `${assetRoot}/zapier.png`, alt: "booking" },
+const features: FeatureItem[] = [
+  {
+    label: "Tạo caption tự động",
+    Icon: Captions,
+    toneClass: styles.toneViolet,
+  },
+  {
+    label: "Ai cắt highlight",
+    Icon: Scissors,
+    toneClass: styles.toneBlue,
+  },
+  {
+    label: "Ai làm nét",
+    Icon: ScanSearch,
+    toneClass: styles.tonePink,
+  },
+  {
+    label: "AI Xóa logo",
+    Icon: Eraser,
+    toneClass: styles.toneOrange,
+  },
+  {
+    label: "text-to-speed",
+    Icon: AudioLines,
+    toneClass: styles.toneYellow,
+  },
 ];
 
 const maskStops = [
@@ -61,6 +88,12 @@ function ProgressiveBlur({ side }: { side: "left" | "right" }) {
 export function LogoMarquee() {
   return (
     <section className={styles.marqueeSection}>
+      <div className={styles.featureKicker}>
+        <span className={styles.kickerLine} />
+        AI cho toàn bộ quy trình video
+        <span className={styles.kickerLine} />
+      </div>
+
       <div className={styles.marqueeTrack}>
         {Array.from({ length: 4 }, (_, groupIndex) => (
           <div
@@ -68,15 +101,14 @@ export function LogoMarquee() {
             className={styles.marqueeGroup}
             key={groupIndex}
           >
-            {logos.map((logo) => (
-              <div className={styles.logoItem} key={logo.src}>
-                <Image
-                  alt={logo.alt}
-                  className={styles.logo}
-                  height={400}
-                  src={logo.src}
-                  width={400}
-                />
+            {features.map(({ label, Icon, toneClass }) => (
+              <div className={styles.featureItem} key={label}>
+                <div className={`${styles.featureCard} ${toneClass}`}>
+                  <span className={`${styles.featureIcon} ${toneClass}`}>
+                    <Icon aria-hidden="true" />
+                  </span>
+                  <span className={styles.featureLabel}>{label}</span>
+                </div>
               </div>
             ))}
           </div>

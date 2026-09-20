@@ -1,11 +1,6 @@
-import Image from "next/image";
-
 import { ArrowUpRightIcon } from "../shared/icons";
 
 import styles from "./streamline-hero.module.css";
-
-const rocketSrc =
-  "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/images/rocket.webp";
 
 export function PromoBanner() {
   return (
@@ -21,18 +16,14 @@ export function PromoBanner() {
         />
 
         <p className={styles.promoCopy}>
-          <Image
-            alt=""
-            className={styles.rocket}
-            height={24}
-            priority
-            src={rocketSrc}
-            width={24}
-          />
-          Ship faster with{" "}
-          <span className={styles.promoPro}>UI-Layouts Pro</span>
+          <span aria-hidden="true" className={styles.rocket}>
+            🚀
+          </span>
+          Biến video dài thành{" "}
+          <span className={styles.promoPro}>Shorts cuốn hút</span>
           <span className={styles.promoTail}>
-            – 50+ Tailwind &amp; React components for production-ready UIs
+            — AI tự chọn khoảnh khắc nổi bật, chuyển khung dọc và tạo caption tự
+            động.
           </span>
         </p>
         <ArrowUpRightIcon className={styles.promoArrow} />

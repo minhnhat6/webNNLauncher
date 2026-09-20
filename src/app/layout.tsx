@@ -1,17 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const poppins = localFont({
   variable: "--font-poppins",
@@ -24,8 +13,9 @@ const poppins = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Streamline Hero | UI Layouts Pro",
-  description: "Build amazing products faster with UI-Layouts Pro.",
+  title: "Tạo Shorts cuốn hút bằng AI",
+  description:
+    "Biến video dài thành Shorts cuốn hút với AI tự chọn khoảnh khắc, chuyển khung dọc và tạo caption tự động.",
   icons: {
     icon: "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/seo/favicon.ico",
     apple: "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/seo/apple-touch-icon.png",
@@ -39,8 +29,8 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
+      lang="vi"
+      className={`${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

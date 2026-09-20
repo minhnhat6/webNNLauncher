@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./streamline-hero.module.css";
 
 const cpuArchitectureAsset =
-  "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/cpu-architecture.svg";
+  "/sites/pro-ui-layouts-com-f03df40c/preview--streamline-hero-ff212995/cpu-architecture.svg?brand=nnlauncher";
 
 export function CpuArchitecture() {
   return (
