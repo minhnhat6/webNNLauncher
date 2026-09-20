@@ -12,7 +12,7 @@ const ratingStars = Array.from({ length: 5 }, (_, index) => index);
 export function HeroContent() {
   return (
     <div className={styles.heroContent}>
-      <h2 className={`${styles.heading} ${styles.entranceOne}`}>
+      <h2 className={styles.heading}>
         <span className={styles.headingLine}>
           Tạo <span className={styles.highlight}>tuyệt phẩm</span>
         </span>
@@ -24,13 +24,13 @@ export function HeroContent() {
         </span>
       </h2>
 
-      <p className={`${styles.description} ${styles.entranceTwo}`}>
+      <p className={styles.description}>
         Tối ưu quy trình sáng tạo với công cụ AI mạnh mẽ và giao diện trực
         quan. Biến video dài thành Shorts cuốn hút, sẵn sàng đăng chỉ trong vài
         phút.
       </p>
 
-      <div className={`${styles.ctaRow} ${styles.entranceThree}`}>
+      <div className={styles.ctaRow}>
         <button
           className={`${styles.cta} ${styles.secondaryCta}`}
           type="button"
@@ -40,7 +40,7 @@ export function HeroContent() {
         </button>
       </div>
 
-      <div className={`${styles.metrics} ${styles.entranceFour}`}>
+      <div className={styles.metrics}>
         <div className={styles.metric}>
           <span className={styles.stars} aria-label="Đánh giá 4,9 trên 5 sao">
             {ratingStars.map((star) => (
